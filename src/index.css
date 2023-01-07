@@ -15,12 +15,13 @@ header {
   text-align: center;
   padding: 4px 10%;
   margin-bottom: 50px;
-  background-color: rgb(102,94,74);
+  background-color: rgb(102, 94, 74);
 }
 
 .app {
   background: url(../src/images/mountains.jpg);
-  background-size: contain;
+  /* background-size: contain; */
+  background-size: 100% 100%;
   /* background-color: aqua; */
   background-repeat: no-repeat;
   height: 100vh;
@@ -30,19 +31,19 @@ header {
   width: 250px;
   padding: 10px 25px;
   margin: 10px 1%;
-  background-color: rgb(228,228,228);
+  background-color: rgb(228, 228, 228);
   border-radius: 5px;
 }
 
 .taskCardTitleInputArea {
-  margin-bottom:  10px;
+  margin-bottom: 10px;
   width: 30%;
   cursor: ointer;
 }
 
 .taskCardTitleInput {
-  width:  80px;
-  font-size: 1,1rem;
+  width: 80px;
+  font-size: 1, 1rem;
   padding: 4px 6px;
   border-radius: 3px;
   border: none;
@@ -59,21 +60,21 @@ header {
 }
 
 .taskBox {
-  display: flex;/*縦並びが横並びになった*/
-  justify-content: space-between;/*良幅にかんかく*/
-  align-items: center;/*縦軸を調整*/
+  display: flex; /*縦並びが横並びになった*/
+  justify-content: space-between; /*良幅にかんかく*/
+  align-items: center; /*縦軸を調整*/
   padding: 17px 0;
   margin: 10px;
   background-color: white;
   border-radius: 5px;
-  box-shadow: 1px 1px 1px 1px rgb(75,75,75);
+  box-shadow: 1px 1px 1px 1px rgb(75, 75, 75);
 }
 
 .taskText {
   margin-left: 12px;
 }
 
-.taskTrashButton{
+.taskTrashButton {
   cursor: pointer;
   margin-right: 9px;
   border: none;
@@ -95,7 +96,7 @@ header {
   padding: 10px 18px;
   border-radius: 9999px;
   font-size: 30px;
-  background-color: rgb(221,194,162);
+  background-color: rgb(221, 194, 162);
   box-shadow: 3px 3px 8px 1px black;
   cursor: pointer;
   transition: all 0.3s;
@@ -106,15 +107,15 @@ header {
   transform: translate(3px, 3px);
 }
 
-.taskCardTitleAndTaskCardDeleteButtonArea{
+.taskCardTitleAndTaskCardDeleteButtonArea {
   display: flex;
   justify-content: space-between;
 }
 
-.taskCardDeleteButton{
+.taskCardDeleteButton {
   border: none;
-  background-color: rgb(228,228,228);
+  background-color: rgb(228, 228, 228);
   cursor: pointer;
   font-size: 18px;
-  color: rgb(158,46,46);
+  color: rgb(158, 46, 46);
 }
